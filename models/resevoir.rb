@@ -1,11 +1,11 @@
 class Resevoir
 
-  attr_reader :name, :data, :level
+  attr_reader :name, :data, :capacity
 
   def initialize(args={})
     @name = args[:name] || nil
     @data = args[:data] || nil
-    @level = args[:level]
+    @capacity = args[:capacity]
   end
 
 
